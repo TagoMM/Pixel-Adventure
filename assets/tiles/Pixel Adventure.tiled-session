@@ -13,10 +13,20 @@
             "scaleInEditor": 1
         },
         "level_01.tmx": {
+<<<<<<< HEAD
             "scale": 1.5,
             "selectedLayer": 0,
             "viewCenter": {
                 "x": 361.6666666666667,
+=======
+            "expandedObjectLayers": [
+                2
+            ],
+            "scale": 1.5,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 299,
+>>>>>>> working_branch
                 "y": 194
             }
         }
