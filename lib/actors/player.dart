@@ -36,7 +36,7 @@ class Player extends SpriteAnimationGroupComponent with HasGameRef<PixelAdventur
     current = PlayerState.running;
   }
 
-  SpriteAnimation _spriteAnimation(String character) {
+  SpriteAnimation _spriteAnimation() {
     return SpriteAnimation.fromFrameData(game.images.fromCache('Main Characters/Ninja Frog/Run (32x32).png'),
     SpriteAnimationData.sequenced(
       amount: 12,
